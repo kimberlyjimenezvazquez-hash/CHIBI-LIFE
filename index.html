@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chibi Life</title>
+    <!-- Tipografías -->
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="lia2.png" type="image/x-icon">
+    <nav>   
+        <a href="juegos.html">Juegos</a>
+    </nav>
+</head>
+
+<body>
+    <header>
+        <h1>Bienvenido a Chibi Life</h1>
+        <p class="subtitulo"></p>
+    </header>
+
+    <section>
+        <div>
+          
+        </div>
+    </section>
+
+    <!-- LOGO ABAJO CON BRILLO -->
+    <div style="text-align:center; margin-top:40px; margin-bottom:15px;">
+        <img src="lia2.PNG" alt="Chibi Life Logo" class="logo-brillo">
+    </div>
+
+    <footer>
+        Chibi Life
+    </footer>
+<audio id="musica" loop>
+  <source src="PIEZA1.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+  document.addEventListener('click', () => {
+    const audio = document.getElementById('musica');
+    audio.play();
+  }, { once: true });
+</script>
+
+
+
+</body>
+</html>
